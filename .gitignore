@@ -1,0 +1,5 @@
+data/invoices
+data/images
+data/texts
+.env
+client.ini

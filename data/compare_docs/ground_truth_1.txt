@@ -1,0 +1,66 @@
+Wstęp
+
+Nie podlega wątpliwości, że samochód jest jednym z najważniejszych środków transportu we współczesnym świecie. Wiele rozwiniętych gospodarek opiera swoją infrastrukturę transportową na transporcie samochodowym, który stanowi podstawę funkcjonowania nie tylko życia codziennego obywateli, ale również szeroko rozumianego obrotu gospodarczego.
+
+Na Rysunku 1 przedstawiono strukturę przewozu pasażerów oraz przewozu ładunków w 2023 roku w Polsce. Udział samochodów przyjmuje wartości procentowe kolejno: dla przewozu pasażerów 39%, a dla przewozu ładunków – 87%. Dane te wskazują na istotne znaczenie transportu samochodowego dla kraju.
+
+[WYKRESY POMINIĘTE]
+
+Rysunek 1. Po lewej – Struktura przewozu pasażerów w 2023 (do transportu samochodowego nie zaliczono transportu komunikacją miejską). Po prawej – struktura przewozu ładunków w 2023. Źródło: Opracowanie własne na podstawie danych: Główny Urząd Statystyczny, Przewozy ładunków i pasażerów w 2023 roku.
+
+Historia powstania samochodu spalinowego sięga XIX wieku, lecz dopiero w wieku XX stał się on powszechnie rozpoznawalnym środkiem transportu, produkowanym na masową skalę na całym świecie. Za pierwszy samochód benzynowy, który został wprowadzony na rynek, uznaje się pojazd skonstruowany przez Karla Benza w 1885 roku. Założona przez niego firma funkcjonuje do dziś jako Mercedes-Benz.
+
+Prawdziwy przełom w historii motoryzacji nastąpił wraz z uruchomieniem masowej produkcji modelu Ford T w Detroit w USA na początku XX wieku. Było to nie tylko rozpoczęcie produkcji samochodów na skalę światową, lecz również narodziny nowoczesnych linii montażowych, które zrewolucjonizowały sposób funkcjonowania fabryk na całym świecie. Dzięki tej innowacji samochody przestały być dobrem luksusowym dostępnym wyłącznie dla najzamożniejszych, a zaczęły trafiać do przeciętnego konsumenta.
+
+----------
+A.D Leśniak-Moczuk, Historyczne determinanty zróżnicowania współczesnych wskaźników rynku samochodów osobowych w Polsce, „Nierówności Społeczne a Wzrost Gospodarczy” 2018, Nr 55, s. 436
+
+=== KONIEC STRONY 1 ===
+
+W okresie od 1908 do 1927 roku Ford wyprodukował 15 milionów sztuk modelu T. Od tamtego czasu technologia przeszła ogromną transformację, a wraz z nią zmieniły się również samochody. W dzisiejszych czasach pojazdy stały powszechnym elementem codziennego życia, a dla wielu osób stały się niezbędnym narzędziem pracy.
+
+Mimo wielkiego postępu produkcyjnego nie każdy może pozwolić sobie na zakup nowego samochodu, głównie ze względów finansowych, a w czasie pandemii COVID-19 i po niej również ze względu na długi czas oczekiwania na pojazd z salonu. W efekcie wiele osób decyduje się na zakup samochodu używanego, który jest łatwiej dostępny dla konsumentów.
+
+W Polsce liczba transakcji zakupu pojazdów używanych wzrosła gwałtownie po przystąpieniu kraju do Unii Europejskiej w 2004 roku. Państwowe granice zostały otwarte na wolny import samochodów używanych z krajów UE. Polacy zaczęli rezygnować z kupna samochodów produkcji krajowej na rzecz nowocześniejszych aut używanych z zachodniej części Unii. Od tamtego momentu obserwuje się znaczny udział samochodów używanych wśród aut jeżdżących po polskich drogach.
+
+Zakup samochodu używanego wiąże się jednak z ryzykiem. Jest to spowodowane tym, że rynek samochodów używanych cechuje się dużą nieprzejrzystością wynikającą, między innymi, z ich naturalnego zużycia związanego z przebiegiem, wiekiem oraz usterkami. Częstym problemem są również przypadki celowego ukrywania informacji o stanie technicznym samochodu przez sprzedających, co prowadzi do sprzedaży po zawyżonych cenach i naraża konsumentów na nieuczciwe transakcje.
+
+Dla przeciętnego kupującego, który nie posiada specjalistycznej wiedzy technicznej, samodzielna wycena wartości pojazdu używanego może być dużym wyzwaniem. Zasadnym wydaje się więc opracowanie narzędzia, które umożliwiłoby obiektywną i rzetelną wycenę pojazdu używanego. Kupujący uzyskaliby obiektywne narzędzie, które mogłoby im pomóc podczas poszukiwania samochodu i zawieraniu uczciwych transakcji, a sprzedający wycenę dostosowaną do aktualnej sytuacji na rynku.
+
+----------
+2 B. Rieger, The People's Car: A Global History of the Volkswagen Beetle, 2013, s. 17.
+3 mAuto.pl, Ile trzeba czekać na nowy samochód?, dostęp 07.06.2025, https://mauto.pl/blog/ile-trzeba-czekac-na-nowy-samochod/
+4 M. Menes, Rozwój motoryzacji indywidualnej w Polsce w latach 1990-2015, „Przegląd Komunikacyjny” 2018, R.73, Nr 4, s.16
+Polski Związek Przemysłu Motoryzacyjnego, Rocznik PZPM-Raport branży motoryzacyjnej 2024/2025, Warszawa 2024, dostęp: 03.06.2025.
+
+=== KONIEC STRONY 2 ===
+
+Takie narzędzie mogłyby opierać się na modelach predykcyjnych, które szacowałyby wartość rynkową pojazdu na podstawie kluczowych jego cech. Takie rozwiązania są szeroko stosowane w analizie danych i opierają się między innymi na zależnościach liniowych i nieliniowych. Ze względu na mnogość i nieregularność czynników w danych o pojazdach używanych (na przykład drogie będą zarówno samochody nowe jak i zabytkowe) można się spodziewać, że bardziej adekwatne wyniki dadzą modele nieliniowe.
+
+Celem badawczym niniejszej pracy jest porównanie skuteczności wybranych modeli ekonometrycznych (które opierają się na zależnościach liniowych) oraz uczenia maszynowego (które osiągają lepszą skuteczność na zależnościach nieliniowych) opartych na danych o ofertach sprzedaży samochodów używanych w Polsce. Aby zrealizować powyższy cel wykorzystano dane z serwisu OtoMoto.pl z roku 2023 i stworzono pięć modeli predykcyjnych: regresję liniową, regresję grzbietową, lasy losowe, XGBoost i perceptron wielowarstwowy.
+
+W rozdziale 1. przedstawiona została historia oraz aktualny stan rynku motoryzacyjnego w Polsce. Omówiono między innymi jakie czynniki wypłynęły na polski przemysł motoryzacyjny, skutki wejścia do Unii Europejskiej oraz aktualne preferencje Polaków.
+
+Rozdział II jest podstawą teoretyczną modeli użytych w badaniu. Szczegółowo zostały opisane podstawy ich działania. Rozdział ten jest istotnym punktem badania i pozwala na zobrazowanie różnic między modelami i może być przydatny w zrozumieniu z czego wynikają różnice w ostatecznych wynikach badania.
+
+W rozdziale III przeprowadzono oczyszczanie i transformacje danych. Usunięto zmienne, które były zbędne, pozbyto się braków danych oraz niektórych wartości odstających. Przeprowadzono również krótką eksplorację danych. Następnie oczyszczone dane przekazano do modeli i dopasowano najlepsze parametry. Ostatecznie przedstawiono porównanie skuteczności modeli oraz analizę istotności cech.
+
+=== KONIEC STRONY 3 ===
+
+1. ROZDZIAŁ – CZĘŚĆ TEORETYCZNA
+
+Rozdział ten przedstawia streszczoną historię polskiej motoryzacji i potencjalne wytłumaczenie dzisiejszego stanu rynku motoryzacyjnego. Przedstawiono tutaj także aktualne badania rynku samochodów używanych w Polsce. Zawarto również istotę problemu, z jakim kupujący oraz sprzedający muszą mierzyć się przy zawieraniu transakcji.
+
+1.1 Historia rynku motoryzacyjnego w Polsce
+
+Na kształt współczesnego rynku samochodów używanych w Polsce miało wpływ wiele czynników historycznych oraz gospodarczych. Jednym z kluczowych było znacznie późniejsze wejście Polski w erę motoryzacji w stosunku do reszty świata. W okresie Polskiej Rzeczypospolitej Ludowej produkcja samochodów osobowych w Polsce była ograniczona i średnio rozwinięta, co wynikało z niskiego rozwoju technologicznego oraz centralnie planowanej gospodarki.
+
+Produkcja już wtedy była znacznie niższa niż w krajach zachodu. Dla przykładu, w roku 1985 Polska wyprodukowała 283 tys. samochodów osobowych, a w tym samym czasie produkcja we Włoszech wyniosła 1,2 mln, we Francji 2,6 mln, a w USA – 8 mln.
+
+Głównymi ośrodkami produkcji w tamtych czasach były rodzime zakłady motoryzacyjne, takie jak Fabryka Samochodów Osobowych (FSO) w Warszawie (produkująca m.in.: Poloneza, Fiata 125p, Syrenkę) oraz Fabryka Samochodów Małolitrażowych (FSM) w Bielsku-Białej i Tychach (produkcja kultowego Polskiego Fiata 126p). To właśnie te fabryki odgrywały kluczową rolę w zaspokajaniu popytu na samochodu osobowe. Świadczy o tym liczba zarejestrowanych w kraju samochodów osobowych w 1989 roku, która wyniosła 4,85 mln, z czego aż około 4 mln stanowiły pojazdy produkcji krajowej – w tym około 2,2 miliona Polskich Fiatów 126p oraz ponad milion Fiatów 125p.
+
+Punktem zwrotnym na polskim rynku była zmiana ustroju państwa w 1989 roku. W jej wyniku zakłady produkcji samochodów zostały sprywatyzowane, co otworzyło rynek na kapitał zagraniczny. Decyzje te, postrzegane wówczas jako korzystne z punktu widzenia rozwoju rynku i jego integracji z gospodarką europejską, okazały się katastrofalne dla rodzimych producentów. Polskie fabryki zostały przejęte przez...
+
+----------
+R. Klimkowska, Przemysł samochodów osobowych w Polsce i jego uwarunkowania w latach transformacji systemowej 1990-2014, „Nierówności Społeczne a Wzrost Gospodarczy” 2015, Nr 43, s. 241-242.
+M. Menes, Rozwój motoryzacji indywidualnej w Polsce w latach 1990-2015, „Przegląd Komunikacyjny” 2018, R.73, Nr 4, s. 16
